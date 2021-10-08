@@ -7,7 +7,7 @@ Command line tools to convert Keynote slides to SVG. You can think of it as a "p
 You will need Apple Keynote, Ghostscript, pdfseparate, Poppler, coreutils, and Inkscape to run this script. Inkscape requires XQuartz.
 
 ```bash
-$ brew cask install xquartz
+$ brew install --cask xquartz
 $ brew install caskroom/cask/inkscape
 $ brew install ghostscript poppler coreutils
 ```
